@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/screenstyle.css" rel="stylesheet">
+    <link href="CSS/resume.css" rel="stylesheet">
+    <link href="CSS/printstyle.css" rel="stylesheet" media="print">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sofia&family=Domine&display=swap" rel="stylesheet">
+    <script src="JS/script.js"></script>
+    <title>Resume</title>
+  </head>
+  <body>
+    <header>
+      <!--I plan for this to have a different font/feel than other headings-->
+      <h2 id="web_title"><a href="index.html">Sam Farley: Design &amp; Development</a></h2>
+    </header>
+    <nav>
+      <a href="index.html" class="navLink" id="home_icon"><img src="images/home.png" alt="home icon" height="20" width="24"></a>
+      <a href="about.html" class="navLink">About</a>
+      <a href="resume.html" class="navLink">Resume</a>
+      <a href="contact.html" class="navLink">Contact</a>
+      <section class="dropdown">
+        <a href="photography.html" class="navLink" id="work_btn">Work Samples</a>
+        <section class="dropdownContent">
+          <a href="photography.html">Photography</a>
+          <a href="videography.html">Videography</a>
+          <a href="graphics.html">Graphics</a>
+        </section>
+      </section>
+    </nav>
+    <main>
+      <h1>Resume</h1>
+      <!-- <p class="printAdd">Please print the resume using the print button provided in the upper right corner of the resume container.</p> -->
+      <!--Not sure the best way to display resume, jpeg image reduced the quality. Do you have a suggestion? My other attempts are commented out below-->
+      <!-- <figure id="resume_fig" class="printRemove">
+        <iframe src="images/Farley_Samantha_Resume_2020.pdf"></iframe> -->
+        
+        <!---->
+        <!-- <figcaption>Resume for Sam Farley</figcaption>
+      </figure> -->
+      <article id="resume_container">
+        <section class="resumeSectionContainer">
+          <h2 id="resume_title">Samantha M. Farley</h2> 
+          <p class="printRemove"><a href="images/Farley_Samantha_Resume_2020.pdf" class="link" download>Download resume as PDF &#8595;</a> or <a href="images/Farley_Samantha_Resume_2020.pdf" target="_blank" class="link">view in new tab &#8599;</a></p>
+        </section>
+        <hr>
+        <h3>CONTACT</h3>
+        <section class="resumeSectionContainer" id="contact_container">
+          <section>
+            <p class="resumeText">(507)-261-9855</p>
+            <p class="resumeText">4463 Moccasin Point Rd</p>
+            <p class="resumeText">Tower, MN 55790</p>
+          </section>
+          <section>
+            <p class="resumeText">samanthafarley32@gmail.com</p>
+            <p class="resumeText">linkedin.com/in/samantha-farley</p>
+            <p class="resumeText">digitaldevign.com</p>
+          </section>
+        </section>
+        <section>
+          <h3>EDUCATION</h3>
+          <p><b>University of Wisconsin-Eau Claire</b>, Eau Claire, WI (Sept. 2016-May 2020)</p>
+          <ul class="education">
+            <li>Bachelor of Liberal Studies in Multimedia and Web Design</li>
+            <li>Spanish Minor</li>
+            <li>Computer Programming Certificate</li>
+            <li>4.0 GPA</li>
+            <li>Honors Student</li>
+          </ul>
+          <section class="resumeSectionContainer">
+            <p>Digital Skills</p>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+            <ul>
+              <li>Java</li>
+              <li>C++</li>
+              <li>C</li>
+            </ul>
+            <ul>
+              <li>Adobe XD</li>
+              <li>Oracle/SQL</li>
+              <li>JSON</li>
+            </ul>
+            <ul>
+              <li>Adobe Creative Suite</li>
+              <li>GitHub</li>
+              <li>ReactJS</li>
+            </ul>
+            <ul>
+              <li>CLIs: Git Bash, PuTTY</li>
+              <li>PHP</li>
+              <li>ExpressJS</li>
+            </ul>
+          </section>
+          <section class="resumeSectionContainer">
+            <p>Relevant Courses</p>
+            <p id="courses"><i>Webpage Design, Web Programming, Computer Systems, Database Systems, Advanced Programming and Data Structures, Web Systems, Audio/Video Production, Photography, International Marketing, Game Analysis and Design, Typography, Digital Imaging and Design</i></p>
+          </section>
+          <p><b>Universidad de Valladolid</b>, Valladolid, Spain (Jan.-May 2018)</p>
+          <ul class="education">
+            <li>Completed el Curso Avanzado de Estudios Hisp&aacute;nicos</li>
+            <li>Gained a working knowledge of Spanish</li>
+          </ul>
+        </section>
+        <section class="resumeSectionContainer">
+          <section>
+            <h3>WORK EXPERIENCE</h3>
+            <p><b>Web Development Teacher Assistant</b>, The LaunchCode Foundation, St. Louis, MO (Aug. 2020-Present)</p>
+            <ul>
+              <li>Co-lead online, bi-weekly studio classes for a group of 20 adults</li>
+              <li>Teach fundamentals of web development in JavaScript and Java</li>
+            </ul>
+            <p><b>Digital Production Intern</b>, Carmichael Lynch, Minneapolis, MN (June-Aug. 2019)</p>
+            <ul>
+              <li>Collaborated with a team of user experience designers to reform the MySubaru app</li>
+              <li>Analyzed site traffic and performed weekly optimizations on Subaru.com</li>
+            </ul>
+            <p><b>Multimedia Editor</b>, <i>The Spectator</i>, University of Wisconsin-Eau Claire, Eau Claire, WI (Jan.-May 2019)</p>
+            <ul>
+              <li>Lead a team of photographers and oversaw production of all videos, photos, podcasts, etc.</li>
+              <li>Produced a bi-weekly multimedia column and created puzzles and accompanying graphics</li>
+            </ul>
+          </section>
+          <section class="verticalResumeImages">
+            <a href="https://www.launchcode.org/"><img src="images/launchcode.png" target="_blank" alt="LaunchCode logo" width="350"></a>
+            <a href="https://www.carmichaellynch.com/"><img src="images/clynch_crop.jpg" target="_blank" alt="Carmichael Lynch logo" width="350"></a>
+          </section>
+        </section>
+        <section class="resumeSectionContainer">
+          <section>
+            <h3>ACADEMIC PROJECTS</h3>
+            <p><b>MySubaru App Redesign</b> (June-Aug. 2019)</p>
+            <ul>
+              <li>Assisted in creating new wireframes for the MySubaru app using Adobe XD</li>
+              <li>Helped formulate a test plan on UserTesting.com to compare new and old app designs</li>
+              <li>Analyzed results and helped summarize them in a deck for client review</li>
+            </ul>
+            <p><b>Wedding Website Design</b> (Jan.-May 2017)</p>
+            <ul>
+              <li>Researched, prototyped and designed a wedding website for a client</li>
+              <li>Developed using HTML, CSS, Bootstrap and GitHub</li>
+            </ul>
+            <p><b>Cabin Website Design</b> (Jan.-March 2020)</p>
+            <ul>
+              <li>Produced for a client and developed using HTML, CSS, JavaScript, Bootstrap and GitHub</li>
+            </ul>
+          </section>
+            <a href="https://www.mysubaru.com/login.html"><img src="images/mysubaru.png" target="_blank" alt="MySubaru app icon" height="150"></a>
+            <!-- <a href="http://katieandthomas18.com/"><img src="images/weddinghomepage.PNG" target="_blank" alt="screenshot of wedding website homepage" width="275"></a> -->
+        </section>
+        <section class="resumeSectionContainer">
+          <section>
+            <h3>LEADERSHIP EXPERIENCE</h3>
+            <p><b>Honors Mentor</b>, University of Wisconsin-Eau Claire, Eau Claire, WI (Feb.-May 2019)</p>
+            <ul>
+              <li>Co-taught the introductory seminar class to 10 freshmen Honors students</li>
+              <li>Enhanced presentation, organization, communication and leadership skills weekly</li>
+            </ul>
+          </section>
+          <section>
+            <a href="https://www.uwec.edu/academics/university-honors-program/"><img src="images/honors_crop.png" target="_blank" alt="UW-Eau Claire Honors logo" width="125"></a>
+          </section>
+        </section>
+        <section class="resumeSectionContainer">
+          <section>
+            <h3>COMMUNITY SERVICE</h3>
+            <p><b>Graphic Communications Volunteer</b>, Valley Media Works, Eau Claire, WI (Sept.-Dec. 2018)</p>
+            <ul>
+              <li>Created promotional materials and weekly social media graphics</li>
+            </ul>
+          </section>
+          <section>
+            <a href="https://www.valleymediaworks.org/"><img src="images/vmw.jpg" target="_blank" alt="Valley Media Works logo" height="125"></a>
+          </section>
+        </section>
+      </article>
+      <section class="twoColLayout">
+        <!--I wasn't sure what to make for a table, but I decided on a table that shows all the languages/programs I know and how well I know them since my resume doesn't exactly tell you how well I know each of my digital skills-->
+        <section>
+          <h2 class="langTableHeader">Language/Digital Skills</h2>
+          <table id="language_table">
+            <caption>The following table showcases my familiarity with various human/computer languages:</caption>
+            <thead>
+              <tr>
+                <th>Language</th>
+                <th>Years Studied</th>
+                <th>Used Outside of Class?</th>
+                <th>Rank</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HTML5</td>
+                <td>4</td>
+                <td>Yes</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>CSS3</td>
+                <td>4</td>
+                <td>Yes</td>
+                <td>2</td>
+              </tr> 
+              <tr>
+                <td>Spanish</td>
+                <td>8</td>
+                <td>Yes</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Adobe Photoshop</td>
+                <td>5</td>
+                <td>Yes</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Adobe Illustrator</td>
+                <td>4</td>
+                <td>Yes</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>3</td>
+                <td>Yes</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>Adobe Premiere Pro</td>
+                <td>3</td>
+                <td>Yes</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <td>Adobe InDesign</td>
+                <td>2</td>
+                <td>Yes</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <td>Java</td>
+                <td>1</td>
+                <td>No</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>Command Line (Bash/PuTTY)</td>
+                <td>1</td>
+                <td>Yes</td>
+                <td>11</td>
+              </tr>
+              <tr>
+                <td>C</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <td>SQL (Oracle)</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <td>Adobe XD</td>
+                <td>0.5</td>
+                <td>Yes</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <td>Adobe Audition</td>
+                <td>1</td>
+                <td>No</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>C++</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>16</td>
+              </tr>
+              <tr>
+                <td>ReactJS</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>17</td>
+              </tr>
+              <tr>
+                <td>PHP</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td>ExpressJS</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>19</td>
+              </tr>
+              <tr>
+                <td>German</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>20</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section id="language_graphics">
+          <aside class="quoteContainer">
+            <p>&ldquo;To learn a language is to have one more window from which to look at the world.&rdquo;</p>
+            <p class="quoteAuthor">&mdash;Chinese Proverb</p>
+          </aside>
+          <figure>
+            <img src="images/markus-spiske-L2cxSuKWbpo-unsplash.jpg" alt="computer code" id="code_img">
+            <figcaption>Photo courtesy of Markus Spiske from Unsplash.com</figcaption>
+          </figure>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p id="footer">&copy; Sam Farley 2020</p>
+      <p class="date"></p>
+      <p id="print_notice">Printed from: www.domainname.com/resume</p>
+    </footer>
+  </body>
+</html>

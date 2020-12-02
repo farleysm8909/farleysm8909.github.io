@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/screenstyle.css" rel="stylesheet">
+    <link href="CSS/contact.css" rel="stylesheet">
+    <link href="CSS/printstyle.css" rel="stylesheet" media="print">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sofia&family=Domine&display=swap" rel="stylesheet">
+    <script src="JS/script.js"></script>
+    <script src="JS/contact.js"></script>
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <!--I plan for this to have a different font/feel than other headings-->
+      <h2 id="web_title"><a href="index.html">Sam Farley: Design &amp; Development</a></h2>
+    </header>
+    <nav>
+      <a href="index.html" class="navLink" id="home_icon"><img src="images/home.png" alt="home icon" height="20" width="24"></a>
+      <a href="about.html" class="navLink">About</a>
+      <a href="resume.html" class="navLink">Resume</a>
+      <a href="contact.html" class="navLink">Contact</a>
+      <section class="dropdown">
+        <a href="photography.html" class="navLink" id="work_btn">Work Samples</a>
+        <section class="dropdownContent">
+          <a href="photography.html">Photography</a>
+          <a href="videography.html">Videography</a>
+          <a href="graphics.html">Graphics</a>
+        </section>
+      </section>
+    </nav>
+    <main>
+      <h1>Contact</h1>
+      <p>Let's get in touch!</p>
+      <section id="success_message"> <!--Find a way to make the form disappear slowly?-->
+      </section>
+      <form name="form"> <!--onsubmit="return validateForm();" method="post" action="#.php or action="https://formspree.io/samanthafarley32@gmail.com""-->
+        <label for="firstname" class="textLabel">First Name<span class="requiredSymbol">&#42;</span>
+          <input type="text" name="first_name" placeholder="Enter your first name" class="textbox" id="first_name">
+        </label>
+        <label for="lastname" class="textLabel">Last Name<span class="requiredSymbol">&#42;</span>
+          <input type="text" name="last_name" placeholder="Enter your last name" class="textbox" id="last_name">
+        </label>
+        <label for="email" class="textLabel">Email Address<span class="requiredSymbol">&#42;</span>
+          <input type="email" name="email" placeholder="Enter your email address" class="textbox" id="email">
+        </label>
+        <label for="phone" class="textLabel">Phone Number (xxx)-xxx-xxxx
+          <input type="tel" name="phone" placeholder="Enter your phone number" class="textbox" id="phone">
+        </label>
+        <label for="textarea" class="textLabel" id="textarea_label">Leave a Message<span class="requiredSymbol">&#42;</span>
+          <textarea name="textarea" placeholder="Enter your message" id="textarea"></textarea>
+        </label>
+        <p><span class="requiredSymbol">&#42;</span> indicates a required field.</p>
+        <input type="button" value="SUBMIT" id="submit_button" onclick="validateForm()">
+      </form>
+      <section id="error_message">
+        <ul id="error_list"><p>Error! Please fix the following issues:</p>
+        </ul>
+      </section>
+      <figure id="contact_fig">
+        <img src="images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg" alt="Hands on a keyboard">
+        <figcaption>Photo courtesy of Glenn Carstens-Peters from Unsplash.com</figcaption>
+      </figure>
+    </main>
+    <footer>
+      <p id="footer">&copy; Sam Farley 2020</p>
+      <p class="date"></p>
+      <p id="print_notice">Printed from: www.domainname.com/contact</p>
+    </footer>
+  </body>
+</html>

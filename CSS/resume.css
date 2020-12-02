@@ -1,0 +1,117 @@
+/*-----------------Resume.html-----------------*/
+
+#resume_container {
+  margin-bottom: 50px;
+  border: 2px dashed #000000;
+  padding: 20px;
+}
+
+/* #resume_fig iframe {
+  width: 100%;
+  height: 800px;
+  margin-bottom: 10px;
+} */
+
+/* #resume_title {
+  text-align: center;
+} */
+
+.resumeSectionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#contact_container {
+  justify-content: flex-start;
+}
+
+#contact_container section {
+  margin-right: 30px;
+}
+
+.resumeText {
+  line-height: 0.4em;
+}
+
+hr {
+  height: 2px;
+  background-color: #000000;
+  border: none;
+  /* border: 1px solid #000000; */
+}
+
+h3 {
+  margin-top: 40px;
+  color: #257cd1;
+}
+
+.education {
+  list-style-type: none;
+}
+
+#courses {
+  width: 1000px;
+}
+
+.verticalResumeImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.langTableHeader {
+  margin-top: 30px;
+}
+
+#language_table {
+  width: 700px;
+}
+
+#language_table caption {
+  margin-bottom: 15px;
+}
+
+#language_table th {
+  color: #257cd1;
+  width: 200px;
+  padding-bottom: 10px;
+}
+
+#language_table td {
+  text-align: center;
+}
+
+#language_graphics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quoteContainer {
+  margin: 20px 0;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.quoteContainer p {
+  padding: 5px 10px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 1.2em;
+  color: #257cd1;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.quoteAuthor {
+  text-align: center;
+}
+
+#code_img {
+  width: 400px;
+  padding-bottom: 10px;
+}

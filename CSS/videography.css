@@ -1,0 +1,14 @@
+/*-----------------Videography.html-----------------*/
+
+.vidFig {
+  margin-bottom: 50px;
+  width: 580px;
+}
+
+.vidFig iframe {
+  margin-bottom: 10px;
+}
+
+.vidFig:hover iframe {
+  box-shadow: 0 0 30px #adadad;
+}

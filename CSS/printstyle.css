@@ -1,0 +1,78 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+  display: none;
+}
+
+main {
+  margin: 0 90px;
+}
+
+h1, h2, h3 {
+  font-family: 'Domine', serif;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: #FFFFFF;
+  color: black;
+  font-size: 0.8em;
+}
+
+#print_notice {
+  display: block;
+}
+
+.twoColLayout {
+  margin-bottom: 20px;
+}
+
+.link {
+  display: none;
+}
+
+.printRemove { /* Applies to resume figure as well as text accompanying hyperlinks (see about.html) */
+  display: none;
+}
+
+
+/* Index.html */
+
+.workSample {
+  margin: 0;
+}
+
+
+/* About.html */
+
+#hobbies_list {
+  margin-top: 20px;
+}
+
+
+/* Resume.html */
+
+.printAdd {
+  display: block; /* Adds message in resume.html for how to print the resume */
+}
+
+
+/* Contact.html */
+
+#contact_fig {
+  margin: 20px 0;
+}
+

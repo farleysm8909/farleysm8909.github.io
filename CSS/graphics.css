@@ -1,0 +1,11 @@
+/*-----------------Graphics.html-----------------*/
+
+.graphicsFig {
+  margin-bottom: 50px;
+  width: 580px;
+}
+
+.graphicsFig img {
+  width: 580px;
+  padding-bottom: 10px;
+}

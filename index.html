@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/screenstyle.css" rel="stylesheet">
+    <link href="CSS/index.css" rel="stylesheet">
+    <link href="CSS/printstyle.css" rel="stylesheet" media="print">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sofia&family=Domine&display=swap" rel="stylesheet">
+    <script src="JS/script.js"></script>
+    <title>Sam Farley</title>
+  </head>
+  <body>
+    <header>
+      <h2 id="web_title"><a href="index.html">Sam Farley: Design &amp; Development</a></h2>
+    </header>
+    <nav>
+      <a href="index.html" class="navLink" id="home_icon"><img src="images/home.png" alt="home icon" height="20" width="24"></a>
+      <a href="about.html" class="navLink">About</a>
+      <a href="resume.html" class="navLink">Resume</a>
+      <a href="contact.html" class="navLink">Contact</a>
+      <section class="dropdown">
+        <a href="photography.html" class="navLink" id="work_btn">Work Samples</a>
+        <section class="dropdownContent">
+          <a href="photography.html">Photography</a>
+          <a href="videography.html">Videography</a>
+          <a href="graphics.html">Graphics</a>
+        </section>
+      </section>
+    </nav>
+    <!--For each page, main contains everything in the body besides the header, nav, and footer-->
+    <main>
+      <h1>Sam Farley: Web Designer &amp; Developer</h1>
+      <section class="twoColLayout">
+        <section class="twoColItem">
+          <p class="goalText">Welcome to my portfolio!</p>
+          <p class="goalText">After recently graduating from the University of Wisconsin-Eau Claire with a degree in multimedia and web design, I am looking to enter the workforce as a web developer.</p>
+          <p class="goalText">I have dual interests in design and development and believe each cannot exist without the other. I am passionate about using languages&mdash;both human and computer&mdash;to better connect the world and its people. Ultimately, my goal is to strengthen global communication by improving the virtual landscape of an international company.</p>
+          <p class="goalText">Note that much of my existing work is in the realm of multimedia; I am excited to gain more experience in web development and am in the process of doing so. <a href="about.html" class="link">Learn more about me &#8599;</a></p>
+        </section>
+        <figure class="twoColItem">
+          <img src="images/rsz_img_2444.jpg" alt="Sam Farley wearing hat">
+        </figure>
+      </section>
+      <h2>View Work Samples By Category</h2>
+      <p>Choose from any of the options below to check out some of my creative work.</p>
+      <section id="link_container">
+        <!--I plan for these h3 headers to eventually go over the images instead of above them-->
+        <figure class="workSample">
+          <a href="photography.html">
+            <h3>Photography</h3>
+          </a>
+          <section class="overlayContainer">
+            <a href="photography.html">
+              <img src="images/gallery/img (24).JPG" alt="colorful shoes">
+              <p class="overlay">Photography</p>
+            </a>
+          </section>
+        </figure>
+        <figure class="workSample">
+          <a href="graphics.html">
+            <h3>Graphics</h3>
+          </a>
+          <section class="overlayContainer">
+            <a href="graphics.html">
+              <img src="images/Man_on_the_Moon_Photo_Project.jpg" alt="Photoshopped image of a man walking towards a giant moon with houses on it">
+              <p class="overlay">Graphics</p>
+            </a>
+          </section>
+        </figure>
+        <figure class="workSample">
+          <a href="videography.html">
+            <h3>Videography</h3>
+          </a>
+          <section class="overlayContainer">
+            <a href="graphics.html">
+              <img src="images/jakob-owens-CiUR8zISX60-unsplash.jpg" alt="Film marker"> <!--Credit to Jakob Owens; didn't want to disrupt visual feel by adding the credit underneath the photo. I can add it if you want me to though-->
+              <p class="overlay">Videography</p>
+            </a>
+        </figure>
+      </section>
+    </main>
+    <footer>
+      <p id="footer">&copy; Sam Farley 2020</p>
+      <p class="date"></p>
+      <p id="print_notice">Printed from: www.domainname.com</p>
+    </footer>
+  </body>
+</html>
