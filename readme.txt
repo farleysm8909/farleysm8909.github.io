@@ -40,3 +40,16 @@ Please note the following:
 Run the program
   Right click on index.html and select "open in default browser" or "open in other browsers" depending on which one you'd like to use. Coded in VS Code.
 
+WEEK 5
+- Fixed resume so it is in HTML/CSS instead of iframe
+- Added form validation using JavaScript to contact.html (does not actually submit to a server, but updates to DOM based on user input)
+
+WEEK 6
+fix: 
+- add bold/underline to about.html DONE
+- add AJAX
+- add Vue
+- add image carousel or something imagey
+- make homepage a full page spread?
+- consider making it responsive
+- double check print situation
