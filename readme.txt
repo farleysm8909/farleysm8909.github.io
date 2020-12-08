@@ -53,3 +53,4 @@ fix:
 - make homepage a full page spread?
 - consider making it responsive
 - double check print situation
+- Made resume more appealing (I mentioned I didn't like it as much as the PDF version, got rid of awkward space formerly to the right of the contact section) DONE

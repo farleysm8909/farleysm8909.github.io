@@ -15,11 +15,7 @@
 }
 
 #contact_container {
-  justify-content: flex-start;
-}
-
-#contact_container section {
-  margin-right: 30px;
+  justify-content: space-evenly;
 }
 
 .resumeText {
