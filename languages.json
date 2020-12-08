@@ -1,0 +1,164 @@
+{
+  "my_skills": [
+    {
+      "skill": {
+        "Language": "HTML5",
+        "Years Studied": 4,
+        "Used Outside of Class?": "Yes",
+        "Rank": 1
+      }
+    },
+    {
+      "skill": {
+        "Language": "CSS3",
+        "Years Studied": 4,
+        "Used Outside of Class?": "Yes",
+        "Rank": 2
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "Spanish",
+        "Years Studied": 8,
+        "Used Outside of Class?": "Yes",
+        "Rank": 3
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "Adobe Photoshop",
+        "Years Studied": 5,
+        "Used Outside of Class?": "Yes",
+        "Rank": 4
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "Adobe Illustrator",
+        "Years Studied": 4,
+        "Used Outside of Class?": "Yes",
+        "Rank": 5
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "JavaScript",
+        "Years Studied": 3,
+        "Used Outside of Class?": "Yes",
+        "Rank": 6
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "Adobe Premiere Pro",
+        "Years Studied": 3,
+        "Used Outside of Class?": "Yes",
+        "Rank": 7
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "Adobe InDesign",
+        "Years Studied": 2,
+        "Used Outside of Class?": "Yes",
+        "Rank": 8
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "Java",
+        "Years Studied": 1,
+        "Used Outside of Class?": "No",
+        "Rank": 9
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "Command Line (Bash/PuTTY)",
+        "Years Studied": 1,
+        "Used Outside of Class?": "Yes",
+        "Rank": 10
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "C",
+        "Years Studied": 0.5,
+        "Used Outside of Class?": "No",
+        "Rank": 11
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "SQL (Oracle)",
+        "Years Studied": 0.5,
+        "Used Outside of Class?": "No",
+        "Rank": 12
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "Adobe XD",
+        "Years Studied": 0.5,
+        "Used Outside of Class?": "Yes",
+        "Rank": 13
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "Adobe Audition",
+        "Years Studied": 1,
+        "Used Outside of Class?": "No",
+        "Rank": 14
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "C++",
+        "Years Studied": 0.5,
+        "Used Outside of Class?": "No",
+        "Rank": 15
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "React",
+        "Years Studied": 0.5,
+        "Used Outside of Class?": "No",
+        "Rank": 16
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "PHP",
+        "Years Studied": 0.5,
+        "Used Outside of Class?": "No",
+        "Rank": 17
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "ExpressJS",
+        "Years Studied": 0.5,
+        "Used Outside of Class?": "No",
+        "Rank": 18
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "Angular",
+        "Years Studied": 0.25,
+        "Used Outside of Class?": "No",
+        "Rank": 19
+      }
+    }, 
+    {
+      "skill": {
+        "Language": "German",
+        "Years Studied": 0.5,
+        "Used Outside of Class?": "No",
+        "Rank": 20
+      }
+    }
+  ]
+}
