@@ -146,16 +146,15 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* align-items: center; not sure if I like this better or not */
 }
 
 .twoColItem {
   margin-bottom: 30px;
-  width: 560px;
+  width: 550px;
 }
 
 .twoColItem img {
-  width: 560px;
+  width: 550px;
 }
 
 .printAdd {

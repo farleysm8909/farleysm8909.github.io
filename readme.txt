@@ -47,7 +47,7 @@ WEEK 5
 WEEK 6
 fix: 
 - add bold/underline to about.html DONE
-- add AJAX
+- add AJAX DONE
 - add Vue
 - add image carousel or something imagey
 - make homepage a full page spread?
