@@ -1,7 +1,9 @@
-// Adapted from Josh Hanson's code demo for assignment 5
+/* Adapted from Josh Hanson's code demo for assignment 5
+ * https://bostonu.zoom.us/rec/share/vCyMAffjYivgUlT6nby2AUQ2XY1_sTi3jF6O88kSaaGJxiQI7j6zbvjx0rIZLuoG.hyfKEEgnjjbRXxrY?startTime=1607137500000 passcode: Dar^a6#F */
+
 // jQuery says the document is ready
 $(document).ready(function() {
-  // automatically make AJAX happen to populate table (no on-click necessary)
+  // automatically populate table by extracting JSON (no on-click necessary)
   makeRequest("https://farleysm8909.github.io/languages.json");
 });
 
@@ -32,19 +34,12 @@ function makeRequest(url) {
 }
 
 function populateTable(skills) {
-  let tableBody = document.getElementById("tbody");
+  //let tableBody = document.getElementById("tbody");
   if (Array.isArray(skills)) {
     // Populate table
-    skills.forEach(skill) => {
-      $("#tableBody").append(`
-        <tr>
-          <td> ${skill.language} </td>
-          <td> ${skill.years} </td>
-          <td> ${skill.industryExp} </td>
-          <td> ${skill.rank} </td>
-        </tr>
-      `);
-    }
+    skills.forEach((obj) => {
+      $("#tbody").append("<tr><td>" + obj.skill.language + "</td><td>" + obj.skill.years + "</td><td>" + obj.skill.industryExp + "</td><td>" + obj.skill.rank + "</td></tr>"); //template literals did not work here, had to concatenate like so
+    });
   } else {
     // The response is not an array, show error
     alert("Error! The response returned is not an array.");

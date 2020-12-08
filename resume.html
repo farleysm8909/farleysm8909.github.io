@@ -9,11 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sofia&family=Domine&display=swap" rel="stylesheet">
     <!-- <script src="JS/script.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--jQuery for AJAX use-->
+    <script src="JS/resume.js"></script>
     <title>Resume</title>
   </head>
   <body class="fade">
     <header>
-      <!--I plan for this to have a different font/feel than other headings-->
       <h2 id="web_title"><a href="index.html">Sam Farley: Design &amp; Development</a></h2>
     </header>
     <nav>
@@ -32,14 +33,6 @@
     </nav>
     <main>
       <h1>Resume</h1>
-      <!-- <p class="printAdd">Please print the resume using the print button provided in the upper right corner of the resume container.</p> -->
-      <!--Not sure the best way to display resume, jpeg image reduced the quality. Do you have a suggestion? My other attempts are commented out below-->
-      <!-- <figure id="resume_fig" class="printRemove">
-        <iframe src="images/Farley_Samantha_Resume_2020.pdf"></iframe> -->
-        
-        <!---->
-        <!-- <figcaption>Resume for Sam Farley</figcaption>
-      </figure> -->
       <article id="resume_container">
         <section class="resumeSectionContainer">
           <h2 id="resume_title">Samantha M. Farley</h2> 
@@ -180,7 +173,6 @@
         </section>
       </article>
       <section class="twoColLayout">
-        <!--I wasn't sure what to make for a table, but I decided on a table that shows all the languages/programs I know and how well I know them since my resume doesn't exactly tell you how well I know each of my digital skills-->
         <section>
           <h2 class="langTableHeader">Language/Digital Skills</h2>
           <table id="language_table">
@@ -193,122 +185,8 @@
                 <th>Rank</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>HTML5</td>
-                <td>4</td>
-                <td>Yes</td>
-                <td>1</td>
-              </tr>
-              <tr>
-                <td>CSS3</td>
-                <td>4</td>
-                <td>Yes</td>
-                <td>2</td>
-              </tr> 
-              <tr>
-                <td>Spanish</td>
-                <td>8</td>
-                <td>Yes</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>Adobe Photoshop</td>
-                <td>5</td>
-                <td>Yes</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>Adobe Illustrator</td>
-                <td>4</td>
-                <td>Yes</td>
-                <td>5</td>
-              </tr>
-              <tr>
-                <td>JavaScript</td>
-                <td>3</td>
-                <td>Yes</td>
-                <td>6</td>
-              </tr>
-              <tr>
-                <td>Adobe Premiere Pro</td>
-                <td>3</td>
-                <td>Yes</td>
-                <td>7</td>
-              </tr>
-              <tr>
-                <td>Adobe InDesign</td>
-                <td>2</td>
-                <td>Yes</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>Java</td>
-                <td>1</td>
-                <td>No</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>Command Line (Bash/PuTTY)</td>
-                <td>1</td>
-                <td>Yes</td>
-                <td>11</td>
-              </tr>
-              <tr>
-                <td>C</td>
-                <td>0.5</td>
-                <td>No</td>
-                <td>12</td>
-              </tr>
-              <tr>
-                <td>SQL (Oracle)</td>
-                <td>0.5</td>
-                <td>No</td>
-                <td>13</td>
-              </tr>
-              <tr>
-                <td>Adobe XD</td>
-                <td>0.5</td>
-                <td>Yes</td>
-                <td>14</td>
-              </tr>
-              <tr>
-                <td>Adobe Audition</td>
-                <td>1</td>
-                <td>No</td>
-                <td>15</td>
-              </tr>
-              <tr>
-                <td>C++</td>
-                <td>0.5</td>
-                <td>No</td>
-                <td>16</td>
-              </tr>
-              <tr>
-                <td>ReactJS</td>
-                <td>0.5</td>
-                <td>No</td>
-                <td>17</td>
-              </tr>
-              <tr>
-                <td>PHP</td>
-                <td>0.5</td>
-                <td>No</td>
-                <td>18</td>
-              </tr>
-              <tr>
-                <td>ExpressJS</td>
-                <td>0.5</td>
-                <td>No</td>
-                <td>19</td>
-              </tr>
-              <tr>
-                <td>German</td>
-                <td>0.5</td>
-                <td>No</td>
-                <td>20</td>
-              </tr>
-            </tbody>
+            <!--tbody is populated using AJAX (see resume.js)-->
+            <tbody id="tbody"></tbody>
           </table>
         </section>
         <section id="language_graphics">

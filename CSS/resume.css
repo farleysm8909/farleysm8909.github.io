@@ -6,16 +6,6 @@
   padding: 20px;
 }
 
-/* #resume_fig iframe {
-  width: 100%;
-  height: 800px;
-  margin-bottom: 10px;
-} */
-
-/* #resume_title {
-  text-align: center;
-} */
-
 .resumeSectionContainer {
   display: flex;
   flex-direction: row;
@@ -67,7 +57,7 @@ h3 {
 }
 
 #language_table {
-  width: 700px;
+  width: 600px;
 }
 
 #language_table caption {
