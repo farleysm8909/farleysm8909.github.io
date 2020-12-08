@@ -2,162 +2,162 @@
   "my_skills": [
     {
       "skill": {
-        "Language": "HTML5",
-        "Years Studied": 4,
-        "Used Outside of Class?": "Yes",
-        "Rank": 1
+        "language": "HTML5",
+        "years": 4,
+        "industryExp": "Yes",
+        "rank": 1
       }
     },
     {
       "skill": {
-        "Language": "CSS3",
-        "Years Studied": 4,
-        "Used Outside of Class?": "Yes",
-        "Rank": 2
+        "language": "CSS3",
+        "years": 4,
+        "industryExp": "Yes",
+        "rank": 2
       }
     }, 
     {
       "skill": {
-        "Language": "Spanish",
-        "Years Studied": 8,
-        "Used Outside of Class?": "Yes",
-        "Rank": 3
+        "language": "Spanish",
+        "years": 8,
+        "industryExp": "Yes",
+        "rank": 3
       }
     }, 
     {
       "skill": {
-        "Language": "Adobe Photoshop",
-        "Years Studied": 5,
-        "Used Outside of Class?": "Yes",
-        "Rank": 4
+        "language": "Adobe Photoshop",
+        "years": 5,
+        "industryExp": "Yes",
+        "rank": 4
       }
     }, 
     {
       "skill": {
-        "Language": "Adobe Illustrator",
-        "Years Studied": 4,
-        "Used Outside of Class?": "Yes",
-        "Rank": 5
+        "language": "Adobe Illustrator",
+        "years": 4,
+        "industryExp": "Yes",
+        "rank": 5
       }
     }, 
     {
       "skill": {
-        "Language": "JavaScript",
-        "Years Studied": 3,
-        "Used Outside of Class?": "Yes",
-        "Rank": 6
+        "language": "JavaScript",
+        "years": 3,
+        "industryExp": "Yes",
+        "rank": 6
       }
     }, 
     {
       "skill": {
-        "Language": "Adobe Premiere Pro",
-        "Years Studied": 3,
-        "Used Outside of Class?": "Yes",
-        "Rank": 7
+        "language": "Adobe Premiere Pro",
+        "years": 3,
+        "industryExp": "Yes",
+        "rank": 7
       }
     }, 
     {
       "skill": {
-        "Language": "Adobe InDesign",
-        "Years Studied": 2,
-        "Used Outside of Class?": "Yes",
-        "Rank": 8
+        "language": "Adobe InDesign",
+        "years": 2,
+        "industryExp": "Yes",
+        "rank": 8
       }
     }, 
     {
       "skill": {
-        "Language": "Java",
-        "Years Studied": 1,
-        "Used Outside of Class?": "No",
-        "Rank": 9
+        "language": "Java",
+        "years": 1,
+        "industryExp": "No",
+        "rank": 9
       }
     }, 
     {
       "skill": {
-        "Language": "Command Line (Bash/PuTTY)",
-        "Years Studied": 1,
-        "Used Outside of Class?": "Yes",
-        "Rank": 10
+        "language": "Command Line (Bash/PuTTY)",
+        "years": 1,
+        "industryExp": "Yes",
+        "rank": 10
       }
     }, 
     {
       "skill": {
-        "Language": "C",
-        "Years Studied": 0.5,
-        "Used Outside of Class?": "No",
-        "Rank": 11
+        "language": "C",
+        "years": 0.5,
+        "industryExp": "No",
+        "rank": 11
       }
     }, 
     {
       "skill": {
-        "Language": "SQL (Oracle)",
-        "Years Studied": 0.5,
-        "Used Outside of Class?": "No",
-        "Rank": 12
+        "language": "SQL (Oracle)",
+        "years": 0.5,
+        "industryExp": "No",
+        "rank": 12
       }
     }, 
     {
       "skill": {
-        "Language": "Adobe XD",
-        "Years Studied": 0.5,
-        "Used Outside of Class?": "Yes",
-        "Rank": 13
+        "language": "Adobe XD",
+        "years": 0.5,
+        "industryExp": "Yes",
+        "rank": 13
       }
     }, 
     {
       "skill": {
-        "Language": "Adobe Audition",
-        "Years Studied": 1,
-        "Used Outside of Class?": "No",
-        "Rank": 14
+        "language": "Adobe Audition",
+        "years": 1,
+        "industryExp": "No",
+        "rank": 14
       }
     }, 
     {
       "skill": {
-        "Language": "C++",
-        "Years Studied": 0.5,
-        "Used Outside of Class?": "No",
-        "Rank": 15
+        "language": "C++",
+        "years": 0.5,
+        "industryExp": "No",
+        "rank": 15
       }
     }, 
     {
       "skill": {
-        "Language": "React",
-        "Years Studied": 0.5,
-        "Used Outside of Class?": "No",
-        "Rank": 16
+        "language": "React",
+        "years": 0.5,
+        "industryExp": "No",
+        "rank": 16
       }
     }, 
     {
       "skill": {
-        "Language": "PHP",
-        "Years Studied": 0.5,
-        "Used Outside of Class?": "No",
-        "Rank": 17
+        "language": "PHP",
+        "years": 0.5,
+        "industryExp": "No",
+        "rank": 17
       }
     }, 
     {
       "skill": {
-        "Language": "ExpressJS",
-        "Years Studied": 0.5,
-        "Used Outside of Class?": "No",
-        "Rank": 18
+        "language": "ExpressJS",
+        "years": 0.5,
+        "industryExp": "No",
+        "rank": 18
       }
     }, 
     {
       "skill": {
-        "Language": "Angular",
-        "Years Studied": 0.25,
-        "Used Outside of Class?": "No",
-        "Rank": 19
+        "language": "Angular",
+        "years": 0.25,
+        "industryExp": "No",
+        "rank": 19
       }
     }, 
     {
       "skill": {
-        "Language": "German",
-        "Years Studied": 0.5,
-        "Used Outside of Class?": "No",
-        "Rank": 20
+        "language": "German",
+        "years": 0.5,
+        "industryExp": "No",
+        "rank": 20
       }
     }
   ]
