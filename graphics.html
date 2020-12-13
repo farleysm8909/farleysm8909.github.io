@@ -8,7 +8,7 @@
     <link href="CSS/printstyle.css" rel="stylesheet" media="print">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sofia&family=Domine&display=swap" rel="stylesheet">
-    <!-- <script src="JS/script.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script> <!--Include Vue-->
     <title>Graphics</title>
   </head>
   <body class="fade">
@@ -33,25 +33,20 @@
     <main>
       <h1>Graphics</h1>
       <p>A collection of my graphic work created using various Adobe programs.</p>
-      <section class="twoColLayout">
-        <figure class="graphicsFig">
-          <img src="images/Man_on_the_Moon_Photo_Project.jpg" alt="Photoshopped image of a man walking towards a giant moon with houses on it">
-          <figcaption>"Man on the Moon" Photoshop project for a photography class</figcaption>
-        </figure>
-        <figure class="graphicsFig">
-          <img src ="images/TourDeItalia.jpg" alt="Photoshopped image of bike handlebars in Rome">
-          <figcaption>"Tour de Italia" Photoshop project for a visual rhetoric class</figcaption>
-        </figure>
-      </section>
-      <section class="twoColLayout">
-        <figure class="graphicsFig">
-          <img src="images/Bowling_Website_Homepage_Compressed.jpg" alt="Bowling website homepage">
-          <figcaption>Bowling website design made for a web design class</figcaption>
-        </figure>
-        <figure class="graphicsFig">
-          <img src="images/College_Cookin'_Graphic.jpg" alt="College Cookin' logo">
-          <figcaption>Logo for my multimedia column in the UWEC student newspaper, <i>The Spectator</i></figcaption>
-        </figure>
+      <section id="carousel">
+      <!--Code adapted from: https://medium.com/@davidatomhernandez/how-to-a-simple-carousel-with-vue-138715d615d7-->
+        <section class='carouselView'>
+          <transition-group class='carousel' tag="section">
+            <section v-for="slide in slides" class='slide' :key="slide.id">
+              <img :src="slide.imgSrc" :alt="slide.altText">
+              <p class="carouselImageCaption">{{slide.caption}}</p>
+            </section>
+          </transition-group>
+          <section class='carouselControls'>
+            <button class='carouselButton' @click="previous">&#8592; Back</button>
+            <button class='carouselButton' @click="next">Next &#8594;</button>
+          </section>
+        </section>
       </section>
     </main>
     <footer>
@@ -60,5 +55,6 @@
       <p id="print_notice">Printed from: www.domainname.com/graphics</p>
     </footer>
     <script src="JS/script.js"></script> <!--Must be at bottom for fade to work-->
+    <script src="JS/graphics.js"></script>
   </body>
 </html>
