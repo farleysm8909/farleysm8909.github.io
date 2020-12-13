@@ -8,7 +8,6 @@
     <link href="CSS/printstyle.css" rel="stylesheet" media="print">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sofia&family=Domine&display=swap" rel="stylesheet">
-    <!-- <script src="JS/script.js"></script> Is it okay to have this at bottom? for fade to work -->
     <title>Sam Farley</title>
   </head>
   <body class="fade">
@@ -32,21 +31,19 @@
     <!--For each page, main contains everything in the body besides the header, nav, and footer-->
     <main>
       <h1>Sam Farley: Web Designer &amp; Developer</h1>
-      <section class="twoColLayout">
-        <section class="twoColItem">
+      <section class="fullSpreadLayout">
+        <img src="images/Portfolio_Hero.jpg" alt="Sam Farley wearing hat" id="homepage_img">
+        <section id="intro_text">
           <p class="goalText">Welcome to my portfolio!</p>
           <p class="goalText">After recently graduating from the University of Wisconsin-Eau Claire with a degree in multimedia and web design, I am looking to enter the workforce as a web developer.</p>
           <p class="goalText">I have dual interests in design and development and believe each cannot exist without the other. I am passionate about using languages&mdash;both human and computer&mdash;to better connect the world and its people. Ultimately, my goal is to strengthen global communication by improving the virtual landscape of an international company.</p>
-          <p class="goalText">Note that much of my existing work is in the realm of multimedia; I am excited to gain more experience in web development and am in the process of doing so. <a href="about.html" class="link">Learn more about me &#8599;</a></p>
+          <p class="goalText">Note that much of my existing work is in the realm of multimedia; I am excited to gain more experience in web development and am in the process of doing so.</p> 
+          <input type="button" id="learn_more_button" onclick="location.href='about.html';" value="Learn more about me">
         </section>
-        <figure class="twoColItem">
-          <img src="images/rsz_img_2444.jpg" alt="Sam Farley wearing hat">
-        </figure>
       </section>
       <h2>View Work Samples By Category</h2>
       <p>Choose from any of the options below to check out some of my creative work.</p>
       <section id="link_container">
-        <!--I plan for these h3 headers to eventually go over the images instead of above them-->
         <figure class="workSample">
           <a href="photography.html">
             <h3>Photography</h3>
@@ -84,7 +81,7 @@
     <footer>
       <p id="footer">&copy; Sam Farley 2020</p>
       <p class="date"></p>
-      <p id="print_notice">Printed from: www.domainname.com</p>
+      <p id="print_notice">Printed from: https://farleysm8909.github.io/.com</p>
     </footer>
     <script src="JS/script.js"></script> <!--Must be at bottom for fade to work-->
   </body>

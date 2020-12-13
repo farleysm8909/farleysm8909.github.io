@@ -39,7 +39,7 @@
           <transition-group class='carousel' tag="section">
             <section v-for="slide in slides" class='slide' :key="slide.id">
               <img :src="slide.imgSrc" :alt="slide.altText">
-              <p class="carouselImageCaption">{{slide.caption}}</p>
+              <p>{{slide.caption}}</p>
             </section>
           </transition-group>
           <section class='carouselControls'>
@@ -52,7 +52,7 @@
     <footer>
       <p id="footer">&copy; Sam Farley 2020</p>
       <p class="date"></p>
-      <p id="print_notice">Printed from: www.domainname.com/graphics</p>
+      <p id="print_notice">Printed from: https://farleysm8909.github.io/graphics</p>
     </footer>
     <script src="JS/script.js"></script> <!--Must be at bottom for fade to work-->
     <script src="JS/graphics.js"></script>

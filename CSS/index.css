@@ -1,7 +1,43 @@
 /*-----------------Index.html-----------------*/
 
+.fullSpreadLayout {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#homepage_img {
+  width: 100%;
+  height: 620px;
+  object-fit: cover;
+  opacity: 90%;
+}
+
+#intro_text {
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  width: 50%;
+}
+
 .goalText {
-  font-size: 1.2em;
+  font-size: 1.4em;
+}
+
+#learn_more_button {
+  padding: 4px 20px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 1.4em;
+  margin: 40px 0 0 150px;
+  border-radius: 20px;
+  outline: none;
+  box-shadow: 0 0 5px #dddddd;
+}
+
+#learn_more_button:hover {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .workSample {
@@ -13,10 +49,6 @@
   text-decoration: none;
   color: #000000;
 }
-
-/* .workSample a:hover {
-  color: #257cd1;
-} */
 
 .workSample img {
   width: 320px;
