@@ -31,7 +31,7 @@ hr {
 
 h3 {
   margin-top: 40px;
-  color: #257cd1;
+  color: #73479c;
 }
 
 .education {
@@ -61,7 +61,7 @@ h3 {
 }
 
 #language_table th {
-  color: #257cd1;
+  color: #73479c;
   width: 200px;
   padding-bottom: 10px;
 }
@@ -88,7 +88,7 @@ h3 {
   padding: 5px 10px;
   font-family: "Poppins", Arial, sans-serif;
   font-size: 1.2em;
-  color: #257cd1;
+  color: #73479c;
   font-weight: bold;
   line-height: 2em;
 }

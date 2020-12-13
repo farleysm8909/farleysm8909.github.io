@@ -15,8 +15,12 @@
 #intro_text {
   position: absolute;
   left: 50px;
-  top: 30px;
+  top: 20px;
   width: 50%;
+}
+
+.introHeading {
+  color: #000000;
 }
 
 .goalText {
