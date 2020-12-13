@@ -115,7 +115,7 @@ h2, h4 {
 }
 
 main {
-  margin: 0 150px; /* better to set max-width then set margins to auto? */
+  margin: 0 150px; 
 }
 
 figure {
