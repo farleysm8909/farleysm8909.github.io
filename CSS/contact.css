@@ -55,6 +55,7 @@ form {
   font-size: 1.1em;
   border: 2px solid #000000;
   outline: none;
+  transition: 0.3s;
 }
 
 #submit_button:hover {

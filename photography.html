@@ -8,7 +8,7 @@
     <link href="CSS/printstyle.css" rel="stylesheet" media="print">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sofia&family=Domine&display=swap" rel="stylesheet">
-    <!-- <script src="JS/script.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> Include Vue -->
     <title>Photography</title>
   </head>
   <body class="fade">
@@ -32,7 +32,7 @@
     <main>
       <h1>Photography</h1>
       <p>A collection of my photos and where they were taken.</p>
-      <section class="galleryContainer">
+      <section class="galleryContainer" id="gallery">
         <figure class="galFigures">
           <img src="images/gallery/img (40).JPG" alt="butterfly on flower" width="360" height="240">
           <figcaption>UW-Eau Claire, Eau Claire, Wisconsin</figcaption>
@@ -149,5 +149,6 @@
       <p id="print_notice">Printed from: https://farleysm8909.github.io/photography</p>
     </footer>
     <script src="JS/script.js"></script> <!--Must be at bottom for fade to work-->
+    <script src="JS/photography.js"></script>
   </body>
 </html>

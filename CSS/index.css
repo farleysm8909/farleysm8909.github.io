@@ -1,5 +1,6 @@
 /*-----------------Index.html-----------------*/
 
+/* CSS for positioning text over image was adapted from https://www.w3schools.com/howto/howto_css_image_text.asp */
 .fullSpreadLayout {
   position: relative;
   margin-bottom: 30px;
@@ -37,6 +38,7 @@
   border-radius: 20px;
   outline: none;
   box-shadow: 0 0 5px #dddddd;
+  transition: 0.3s;
 }
 
 #learn_more_button:hover {

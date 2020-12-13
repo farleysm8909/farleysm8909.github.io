@@ -10,6 +10,7 @@
 .galFigures {
   margin-bottom: 50px; /* Add space between rows of images */
   opacity: 1;
+  transition: transform .2s; /* Animate when hovered */
 }
 
 .galFigures img {
@@ -17,7 +18,7 @@
   object-fit: cover; /* Adjust image so it fits without distortion */
 }
 
-/* .galFigures img:hover {
-  width: 460px;
-} */
+.galFigures:hover {
+  transform: scale(1.3);
+}
 
