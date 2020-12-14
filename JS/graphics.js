@@ -60,17 +60,17 @@ var carousel = new Vue({
           caption: "Photography website design"
         }
       ]
-    }
+    };
   },
 
   methods: {
     next () {
-      const first = this.slides.shift()
-      this.slides = this.slides.concat(first)
+      const first = this.slides.shift();
+      this.slides = this.slides.concat(first);
     },
     previous () {
-      const last = this.slides.pop()
-      this.slides = [last].concat(this.slides)
+      const last = this.slides.pop();
+      this.slides = [last].concat(this.slides);
     }
   }
 })

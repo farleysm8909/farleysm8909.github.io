@@ -28,7 +28,7 @@ function makeRequest(url) {
         alert("Error! Status is " + httpRequest.status + ", not 200.");
       }
     }
-  }
+  };
   httpRequest.open("GET", url); 
   httpRequest.send(); //send request
 }

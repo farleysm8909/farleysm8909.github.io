@@ -37,10 +37,10 @@
       <section id="success_message"> <!--Find a way to make the form disappear slowly?-->
       </section>
       <form name="form"> <!--onsubmit="return validateForm();" method="post" action="#.php or action="https://formspree.io/samanthafarley32@gmail.com""-->
-        <label for="firstname" class="textLabel">First Name<span class="requiredSymbol">&#42;</span>
+        <label for="first_name" class="textLabel">First Name<span class="requiredSymbol">&#42;</span>
           <input type="text" name="first_name" placeholder="Enter your first name" class="textbox" id="first_name">
         </label>
-        <label for="lastname" class="textLabel">Last Name<span class="requiredSymbol">&#42;</span>
+        <label for="last_name" class="textLabel">Last Name<span class="requiredSymbol">&#42;</span>
           <input type="text" name="last_name" placeholder="Enter your last name" class="textbox" id="last_name">
         </label>
         <label for="email" class="textLabel">Email Address<span class="requiredSymbol">&#42;</span>
@@ -56,7 +56,7 @@
         <input type="button" value="SUBMIT" id="submit_button" onclick="validateForm()">
       </form>
       <section id="error_message">
-        <ul id="error_list"><p>Error! Please fix the following issues:</p>
+        <ul id="error_list">
         </ul>
       </section>
       <figure id="contact_fig">
