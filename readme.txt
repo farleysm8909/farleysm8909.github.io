@@ -3,7 +3,7 @@ Run the Program
 - The JSON data used in the table in resume.html is live on https://farleysm8909.github.io/languages.json
 
 How I went above and beyond for this project:
-- Made a dropdown menu in the navigation
+- Website contains 7 pages
 - Added AJAX to retrieve JSON data and populate table in resume.html (automatically populates once DOM loads, no button)
 - Used Vue to create an image carousel in graphics.html as opposed to copying code from assignment 6
 - Added the current date to the footer (JS)
@@ -12,6 +12,8 @@ How I went above and beyond for this project:
 - Used both flexbox (throughout) and CSS grid (in contact.html) for website layout
 - Used CSS transitions (button hovers, images on homepages)
 
+What I changed since the final demo on Sunday:
+- I fixed the code in graphics.js so that "data" returns a function instead of having an object for a value. Thank you for sharing the link (https://vuejs.org/v2/guide/components.html) so I could learn more about this.
 
 
 If you would like to see how I went above and beyond for this project each week, note the following weekly summaries:
