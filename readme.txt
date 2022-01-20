@@ -15,7 +15,7 @@ How I went above and beyond for this project:
 
 What I changed since the final demo on Sunday:
 - I fixed the code in graphics.js so that "data" returns a function instead of having an object for a value. Thank you for sharing the link (https://vuejs.org/v2/guide/components.html) so I could learn more about this.
-- Tweaked code to pass HTML/CSS/JS validation. Only thing I didn't do was add a semi-colon on like 76 of contact.js because every resource I've seen (including our lecture notes) does not put a semi colon after the creation of the Vue instance. Thus, I ommitted it because I think that might be a Vue thing that the js validator doesn't know about.
+- Tweaked code to pass HTML/CSS/JS validation. Only thing I didn't do was add a semi-colon on line 76 of contact.js because every resource I've seen (including our lecture notes) does not put a semi colon after the creation of the Vue instance. Thus, I ommitted it because I think that might be a Vue thing that the js validator doesn't know about.
 
 
 If you would like to see how I went above and beyond for this project each week, note the following weekly summaries:
