@@ -3,7 +3,7 @@
     {
       "skill": {
         "language": "HTML5",
-        "years": 4,
+        "years": 5,
         "industryExp": "Yes",
         "rank": 1
       }
@@ -11,25 +11,65 @@
     {
       "skill": {
         "language": "CSS3",
-        "years": 4,
+        "years": 5,
         "industryExp": "Yes",
         "rank": 2
       }
     }, 
     {
       "skill": {
-        "language": "Spanish",
-        "years": 8,
+        "language": "JavaScript",
+        "years": 4,
         "industryExp": "Yes",
         "rank": 3
       }
+    },
+    {
+      "skill": {
+        "language": "Spanish",
+        "years": 9,
+        "industryExp": "Yes",
+        "rank": 4
+      }
     }, 
+    {
+      "skill": {
+        "language": "ExpressJS",
+        "years": 1,
+        "industryExp": "No",
+        "rank": 5
+      }
+    },
+    {
+      "skill": {
+        "language": "NodeJS",
+        "years": 1,
+        "industryExp": "No",
+        "rank": 6
+      }
+    },
+    {
+      "skill": {
+        "language": "MongoDB",
+        "years": 1,
+        "industryExp": "No",
+        "rank": 7
+      }
+    }, 
+    {
+      "skill": {
+        "language": "SQL",
+        "years": 1,
+        "industryExp": "No",
+        "rank": 8
+      }
+    },
     {
       "skill": {
         "language": "Adobe Photoshop",
         "years": 5,
         "industryExp": "Yes",
-        "rank": 4
+        "rank": 9
       }
     }, 
     {
@@ -37,23 +77,16 @@
         "language": "Adobe Illustrator",
         "years": 4,
         "industryExp": "Yes",
-        "rank": 5
+        "rank": 10
       }
     }, 
-    {
-      "skill": {
-        "language": "JavaScript",
-        "years": 3,
-        "industryExp": "Yes",
-        "rank": 6
-      }
-    }, 
+     
     {
       "skill": {
         "language": "Adobe Premiere Pro",
         "years": 3,
         "industryExp": "Yes",
-        "rank": 7
+        "rank": 11
       }
     }, 
     {
@@ -61,7 +94,7 @@
         "language": "Adobe InDesign",
         "years": 2,
         "industryExp": "Yes",
-        "rank": 8
+        "rank": 12
       }
     }, 
     {
@@ -69,52 +102,20 @@
         "language": "Java",
         "years": 1,
         "industryExp": "No",
-        "rank": 9
-      }
-    }, 
-    {
-      "skill": {
-        "language": "Command Line (Bash/PuTTY)",
-        "years": 1,
-        "industryExp": "Yes",
-        "rank": 10
-      }
-    }, 
-    {
-      "skill": {
-        "language": "C",
-        "years": 0.5,
-        "industryExp": "No",
-        "rank": 11
-      }
-    }, 
-    {
-      "skill": {
-        "language": "SQL (Oracle)",
-        "years": 0.5,
-        "industryExp": "No",
-        "rank": 12
-      }
-    }, 
-    {
-      "skill": {
-        "language": "Adobe XD",
-        "years": 0.5,
-        "industryExp": "Yes",
         "rank": 13
       }
-    }, 
+    },  
     {
       "skill": {
-        "language": "Adobe Audition",
+        "language": "PHP",
         "years": 1,
         "industryExp": "No",
         "rank": 14
       }
-    }, 
+    },
     {
       "skill": {
-        "language": "C++",
+        "language": "C",
         "years": 0.5,
         "industryExp": "No",
         "rank": 15
@@ -122,23 +123,23 @@
     }, 
     {
       "skill": {
-        "language": "React",
+        "language": "Adobe XD",
         "years": 0.5,
-        "industryExp": "No",
+        "industryExp": "Yes",
         "rank": 16
       }
     }, 
     {
       "skill": {
-        "language": "PHP",
-        "years": 0.5,
+        "language": "Adobe Audition",
+        "years": 1,
         "industryExp": "No",
         "rank": 17
       }
     }, 
     {
       "skill": {
-        "language": "ExpressJS",
+        "language": "C++",
         "years": 0.5,
         "industryExp": "No",
         "rank": 18
@@ -146,10 +147,18 @@
     }, 
     {
       "skill": {
+        "language": "React",
+        "years": 0.5,
+        "industryExp": "No",
+        "rank": 19
+      }
+    }, 
+    {
+      "skill": {
         "language": "Angular",
         "years": 0.25,
         "industryExp": "No",
-        "rank": 19
+        "rank": 20
       }
     }, 
     {
@@ -157,7 +166,7 @@
         "language": "German",
         "years": 0.5,
         "industryExp": "No",
-        "rank": 20
+        "rank": 21
       }
     }
   ]
