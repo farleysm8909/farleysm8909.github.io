@@ -17,7 +17,7 @@
   object-fit: cover; /* Adjust image so it fits without distortion */
 }
 
-/* .galFigures img:hover {
+.galFigures img:hover {
   width: 460px;
-} */
+} 
 
