@@ -1,58 +1,11 @@
 /*-----------------Graphics.html-----------------*/
 
-/* Code adapted from: https://medium.com/@davidatomhernandez/how-to-a-simple-carousel-with-vue-138715d615d7 */
-.carouselView {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30px;
+.graphicsFig {
+  margin-bottom: 50px;
+  width: 580px;
 }
 
-.carousel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  width: 850px;
-  height: 560px;
-}
-
-.slide {
-  flex: 0 0 800px; /* sets flex-grow, flex-shrink, flex-basis */
-  height: 550px;
-  margin: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.3s ease-in-out;
-}
-
-.slide img {
-  height: 530px;
-  width: 800px;
-  object-fit: contain;
-}
-
-.slide:first-of-type {
-  opacity: 0;
-}
-
-.slide:last-of-type {
-  opacity: 0;
-}
-
-.carouselButton {
-  font-family: "Poppins", Arial, sans-serif;
-  font-size: 1.3em;
-  padding: 3px 15px;
-  margin: 30px 80px 0 80px;
-  background-color: #73479c;
-  color: #ffffff;
-  border-radius: 30px;
-  outline: none;
-}
-
-.carouselButton:hover {
-  background-color: #000000;
+.graphicsFig img {
+  width: 580px;
+  padding-bottom: 10px;
 }

@@ -17,7 +17,7 @@ header > h2 > a {
 /*-----------------Navigation-----------------*/
 
 nav {
-  background-color: #b59eca; /* was 72ade6 */
+  background-color: #72ade6;
   height: 46px;
   box-shadow: 0px 3px 8px #d3d3d3;
   display: flex;
@@ -54,7 +54,6 @@ nav {
 .dropdown {
   position: relative;
   display: inline-block;
-  z-index: 10; /* Make dropdown appear in front of homepage image */
 }
 
 .dropdownContent {
@@ -93,8 +92,6 @@ nav {
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  opacity: 1;
-  transition: 0.8s opacity; /* create a 0.8 second fade in */
 }
 
 h1, h2, h3, h4, h5, h6, nav, footer {
@@ -103,7 +100,6 @@ h1, h2, h3, h4, h5, h6, nav, footer {
 
 h1 {
   margin-bottom: 30px;
-  font-size: 35px;
 }
 
 h2 {
@@ -111,11 +107,11 @@ h2 {
 }
 
 h2, h4 {
-  color: #73479c;
+  color: #257cd1;
 }
 
 main {
-  margin: 0 150px; 
+  margin: 0 150px; /* better to set max-width then set margins to auto? */
 }
 
 figure {
@@ -134,11 +130,6 @@ footer {
 
 /*-----------------Specific Classes/ID's-----------------*/
 
-.fade {
-  opacity: 0;
-  transition: none;
-}
-
 #print_notice {
   display: none;
 }
@@ -148,15 +139,16 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* align-items: center; not sure if I like this better or not */
 }
 
 .twoColItem {
   margin-bottom: 30px;
-  width: 550px;
+  width: 560px;
 }
 
 .twoColItem img {
-  width: 550px;
+  width: 560px;
 }
 
 .printAdd {
@@ -165,7 +157,7 @@ footer {
 
 .link {
   text-decoration: none;
-  color: #73479c;
+  color: #257cd1;
 }
 
 .link:hover {
@@ -182,8 +174,4 @@ footer {
 
 #footer {
   font-size: 1.1em;
-}
-
-.date {
-  font-size: 0.7em;
 }

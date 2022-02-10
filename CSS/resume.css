@@ -6,6 +6,16 @@
   padding: 20px;
 }
 
+/* #resume_fig iframe {
+  width: 100%;
+  height: 800px;
+  margin-bottom: 10px;
+} */
+
+/* #resume_title {
+  text-align: center;
+} */
+
 .resumeSectionContainer {
   display: flex;
   flex-direction: row;
@@ -15,7 +25,11 @@
 }
 
 #contact_container {
-  justify-content: space-evenly;
+  justify-content: flex-start;
+}
+
+#contact_container section {
+  margin-right: 30px;
 }
 
 .resumeText {
@@ -26,11 +40,12 @@ hr {
   height: 2px;
   background-color: #000000;
   border: none;
+  /* border: 1px solid #000000; */
 }
 
 h3 {
   margin-top: 40px;
-  color: #73479c;
+  color: #257cd1;
 }
 
 .education {
@@ -52,7 +67,7 @@ h3 {
 }
 
 #language_table {
-  width: 600px;
+  width: 700px;
 }
 
 #language_table caption {
@@ -60,7 +75,7 @@ h3 {
 }
 
 #language_table th {
-  color: #73479c;
+  color: #257cd1;
   width: 200px;
   padding-bottom: 10px;
 }
@@ -87,7 +102,7 @@ h3 {
   padding: 5px 10px;
   font-family: "Poppins", Arial, sans-serif;
   font-size: 1.2em;
-  color: #73479c;
+  color: #257cd1;
   font-weight: bold;
   line-height: 2em;
 }
