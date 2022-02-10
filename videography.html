@@ -8,9 +8,10 @@
     <link href="CSS/printstyle.css" rel="stylesheet" media="print">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sofia&family=Domine&display=swap" rel="stylesheet">
+    <script src="JS/script.js"></script>
     <title>Videography</title>
   </head>
-  <body class="fade">
+  <body>
     <header>
       <h2 id="web_title"><a href="index.html">Sam Farley: Design &amp; Development</a></h2>
     </header>
@@ -20,7 +21,7 @@
       <a href="resume.html" class="navLink">Resume</a>
       <a href="contact.html" class="navLink">Contact</a>
       <section class="dropdown">
-        <a href="photography.html" class="navLink" id="work_btn">Multimedia</a>
+        <a href="photography.html" class="navLink" id="work_btn">Work Samples</a>
         <section class="dropdownContent">
           <a href="photography.html">Photography</a>
           <a href="videography.html">Videography</a>
@@ -28,10 +29,12 @@
         </section>
       </section>
     </nav>
+    <!--For each page, main contains everything in the body besides the header, nav, and footer-->
     <main>
       <h1>Videography</h1>
       <p>A collection of my videos and what they were made for.</p>
       <section class="twoColLayout">
+        <!--Using YouTube embed links instead of native video. I know you mentioned you don't like iframes, are they okay here or should I change this?-->
         <figure class="vidFig">
           <iframe width="580" height="350" src="https://www.youtube.com/embed/1iP3O7Vjjlw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <figcaption>Cooking tutorial made for the UW-Eau Claire student newspaper, <i>The Spectator</i></figcaption>
@@ -73,10 +76,8 @@
       </section>
     </main>
     <footer>
-      <p id="footer">&copy; Sam Farley 2022</p>
-      <p class="date"></p>
-      <p id="print_notice">Printed from: https://farleysm8909.github.io/videography</p>
+      <p id="footer">&copy; Sam Farley <span class="date"></span></p>
+      <p id="print_notice">Printed from: www.domainname.com/videography</p>
     </footer>
-    <script src="JS/script.js"></script> <!--Must be at bottom for fade to work-->
   </body>
 </html>
